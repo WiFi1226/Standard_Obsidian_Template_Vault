@@ -1,0 +1,18 @@
+.workspace-leaf,
+.workspace-tab-header-container{
+  background: transparent!important;
+}
+
+.workspace-split.mod-root,
+.workspace-split.mod-root .view-content,
+.workspace-split.mod-root .view-header {
+  background: transparent!important;
+}
+
+.view-header-title-container:not(.mod-at-end):after {
+  background: transparent!important;
+}
+
+/* .theme-dark{
+  --opacity-translucency: 0.01!important;
+} */

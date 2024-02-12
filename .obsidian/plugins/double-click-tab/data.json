@@ -1,0 +1,5 @@
+{
+  "defaultDblClickTabBehavior": "closeTab",
+  "defaultDblClickTabOnNoTabsAreaBehavior": "createNewTab",
+  "supportNoTabsArea": true
+}

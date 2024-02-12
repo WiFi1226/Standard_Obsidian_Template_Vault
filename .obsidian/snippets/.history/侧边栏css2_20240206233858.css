@@ -1,0 +1,20 @@
+/* 原始的侧边栏样式，当它处于折叠状态时 */
+.workspace-ribbon.side-dock-ribbon.mod-left.is-collapsed,
+.workspace-ribbon.mod-left {
+    position: absolute;
+    top: 0px;
+    left: -100%; /* 完全隐藏在左侧 */
+    height: 95%;
+    transition: left .3s ease-out; /* 平滑过渡效果，仅作用于left属性 */
+}
+
+/* 当侧边栏被展开时的样式 */
+.workspace-ribbon.side-dock-ribbon.mod-left.is-expanded {
+    left: 0px; /* 显示在视图内 */
+    transition: left .3s ease-out; /* 平滑过渡效果，仅作用于left属性 */
+}
+
+/* 侧边栏内部动作项的样式 */
+.side-dock-actions {
+    margin-top: 35px; /* 调整上边距 */
+}

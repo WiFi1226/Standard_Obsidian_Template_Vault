@@ -1,0 +1,17 @@
+{
+  "blue-topaz-theme@@toggle-bg-panel-page": false,
+  "blue-topaz-theme@@auto-serial-number-dvtable": true,
+  "blue-topaz-theme@@file-bg-shape-option": "file-shape-default",
+  "blue-topaz-theme@@dark-background-file": true,
+  "blue-topaz-theme@@file-name-style-option": "file-name-non-wrapped",
+  "blue-topaz-theme@@unmuted-collapsed-folder": false,
+  "blue-topaz-theme@@remove-file-icons": false,
+  "blue-topaz-theme@@folder-style-change-options-colorful": "folder-style-change-options-colorful-tab-liked",
+  "blue-topaz-theme@@remove-custom-svg-icons": true,
+  "blue-topaz-theme@@default-icons": true,
+  "blue-topaz-theme@@enable-icon-anima": true,
+  "blue-topaz-theme@@toggle-checked-decoration": true,
+  "blue-topaz-theme@@remove-first-folder-icon": true,
+  "blue-topaz-theme@@folder-icons": true,
+  "image-features@@banner-height": 300
+}

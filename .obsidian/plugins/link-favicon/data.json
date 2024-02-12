@@ -1,0 +1,22 @@
+{
+  "provider": "google",
+  "fallbackProvider": "google",
+  "providerDomain": "",
+  "fallbackProviderDomain": "",
+  "ignored": "",
+  "overwritten": [
+    {
+      "domain": "github.com",
+      "icon": "luc_github"
+    }
+  ],
+  "protocol": [],
+  "showAliased": true,
+  "showLink": true,
+  "enableReading": true,
+  "enableSource": true,
+  "enableLivePreview": true,
+  "debounce": 500,
+  "iconPosition": "front",
+  "colorInversion": true
+}

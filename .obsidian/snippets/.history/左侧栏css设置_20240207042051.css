@@ -1,0 +1,22 @@
+.sidebar-toggle-button.mod-left {
+    justify-content: center; /*交互区对齐*/
+    margin-left: 0px; /*左侧栏按钮位置*/
+  }
+.sidebar-toggle-button.mod-left svg {opacity: 0; /*左侧栏按钮 SVG 不透明度*/}
+  
+  .workspace-ribbon.side-dock-ribbon.mod-left:not(:hover)::before,
+  .workspace-ribbon.side-dock-ribbon.mod-left:not(:hover) {
+    border-right-color: transparent;
+    margin-left: -32px;
+    position: absolute;
+    height:95%;
+    opacity:0;
+    transition:all .3s ease-out .2s;
+  }
+  .workspace-ribbon.side-dock-ribbon.mod-left::before,
+  .workspace-ribbon.side-dock-ribbon.mod-left {
+    opacity:1;
+    margin-left: 0px;
+    transition:all .2s ease-out .1s;
+  }
+  

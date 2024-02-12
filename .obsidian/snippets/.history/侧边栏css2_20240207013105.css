@@ -1,0 +1,24 @@
+/* 当侧边栏折叠且未悬停时的样式 */
+.workspace-ribbon.side-dock-ribbon.mod-left.is-collapsed,
+.workspace-ribbon.side-dock-ribbon.mod-left {
+  position: absolute;
+  top: 0px;
+  left: -30px; /* 折叠时隐藏在屏幕左侧 */
+  height: 95%;
+  opacity: 0; /* 折叠时不可见 */
+  transition: all .3s ease-out .2s;
+}
+
+/* 当鼠标悬停在折叠的侧边栏上时的样式 */
+.workspace-ribbon.side-dock-ribbon.mod-left.is-collapsed:hover,
+.workspace-ribbon.side-dock-ribbon.mod-left:hover {
+  opacity: 1; /* 悬停时可见 */
+  left: 0px; /* 悬停时滑入屏幕 */
+  transition: all .3s ease-out .2s;
+}
+
+/* 侧边栏内部操作的样式 */
+.side-dock-actions {
+  /* 防止重叠 */
+  margin-top: 35px;
+}

@@ -1,0 +1,10 @@
+.workspace-ribbon.side-dock-ribbon.mod-left.is-collapsed,
+.workspace-ribbon.mod-left
+{
+    position: absolute;
+    top:0px;
+    left:-30px;
+    height:95%;
+    opacity:;
+    transition:all .3s ease-out .2s;
+}

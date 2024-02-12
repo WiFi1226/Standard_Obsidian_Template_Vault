@@ -1,0 +1,12 @@
+
+ .workspace-ribbon.side-dock-ribbon.mod-left.is-collapsed:not(:hover)::before,
+  .workspace-ribbon.side-dock-ribbon.mod-left:not(:hover) {
+    margin-left: -32px;
+    position: absolute;
+    top: 0px;
+    border-right-color: transparent;
+    transition: all .3s ease-out .2s, var(--anim-duration-moderate); /* 添加过渡效果 */
+  }
+
+   .workspace-ribbon.side-dock-ribbon.mod-left.is-collapsed::before,
+   .workspace-ribbon.side-dock-ribbon.mod-left {transition: var(--anim-duration-moderate);}把这个功能加入

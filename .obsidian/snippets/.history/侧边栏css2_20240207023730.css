@@ -1,0 +1,37 @@
+/* 控制侧边栏的基本位置和移动 */
+.workspace-ribbon.side-dock-ribbon.mod-left {
+  position: absolute;
+  top: 0;
+  left: -200px; /* 设置为侧边栏宽度的负值，默认隐藏在屏幕左侧 */
+  opacity: 0;
+  height: 95%;
+  border-right-color: transparent; /* 设置右边框颜色为透明 */
+  transition: all .3s ease-out .2s;
+  z-index: 2; /* 确保侧边栏在其他内容之上 */
+}
+
+/* 当鼠标悬停在侧边栏上时，改变侧边栏的透明度和位置 */
+.workspace-ribbon.side-dock-ribbon.mod-left:hover {
+  opacity: 1;
+  left: 0; /* 移动到屏幕中可见 */
+}
+
+/* 控制 .workspace-split 的位置变化 */
+.workspace-ribbon.side-dock-ribbon.mod-left:hover .workspace-split.mod-horizontal.mod-left-split {
+  width: 200px; /* 设置为侧边栏展开时的宽度 */
+  transition: width .3s ease-out .2s; /* 平滑过渡宽度变化 */
+}
+
+/* 控制图标和动作元素的样式 */
+.workspace-ribbon.side-dock-ribbon.mod-left .clickable-icon,
+.workspace-ribbon.side-dock-ribbon.mod-left .side-dock-actions {
+  /* 图标和动作元素的样式 */
+  transition: opacity .3s ease-out .2s; /* 平滑过渡透明度 */
+}
+
+.side-dock-actions {
+  margin-top: 35px; /* 防止重叠 */
+}
+
+
+/* 当侧边栏悬停时，图标和动作元素将自然地跟随父元素移动，无需额外的位置变化 */

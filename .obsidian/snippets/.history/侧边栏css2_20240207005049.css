@@ -1,0 +1,18 @@
+
+.workspace-ribbon.side-dock-ribbon.mod-left.is-collapsed,
+.workspace-ribbon.mod-left
+{
+    position: absolute;
+    top:0px;
+    left:-30px;
+    height:95%;
+    opacity:0;
+    transition:all .3s ease-out .2s;
+}
+.workspace-ribbon.side-dock-ribbon.mod-left.is-collapsed:not(:hover)::before,
+.workspace-ribbon.side-dock-ribbon.mod-left.is-collapsed:not(:hover) {
+  border-right-color: transparent;
+  margin-left: -32px;
+}
+.workspace-ribbon.side-dock-ribbon.mod-left.is-collapsed::before,
+.workspace-ribbon.side-dock-ribbon.mod-left.is-collapsed {transition: var(--anim-duration-moderate);}

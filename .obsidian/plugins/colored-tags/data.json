@@ -1,0 +1,33 @@
+{
+  "palette": {
+    "seed": 6,
+    "selected": "adaptive-bright",
+    "custom": "e12729-f37324-f8cc1b-72b043-007f4e"
+  },
+  "mixColors": true,
+  "transition": true,
+  "accessibility": {
+    "highTextContrast": true
+  },
+  "knownTags": {
+    "gjgljkj": 1,
+    "red": 2,
+    "fjhjfjh": 3,
+    "task": 4,
+    "": 5,
+    "未命名": 1,
+    "未命名/untitled": 1,
+    "未命名/untitled/fdjfdlsjfl": 1,
+    "bannericonl": 6,
+    "---tab": 7,
+    "timeline": 8,
+    "test": 9,
+    "me": 10,
+    "now": 11,
+    "timeline-labeled": 12,
+    "body-2": 13,
+    "line-3": 14,
+    "dailynote": 15
+  },
+  "_version": 3
+}

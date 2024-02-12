@@ -1,0 +1,56 @@
+table {
+    border: 1px solid transparent;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    text-align: left;
+}
+
+thead {
+    border-bottom: 1.5px solid black;
+    text-align: left;
+}
+
+/*table hover*/
+:is(.markdown-preview-view,.markdown-rendered,.markdown-source-view) td:hover,
+:is(.markdown-preview-view,.markdown-rendered,.markdown-source-view) thead tr > th:nth-child(2n+2):hover {
+  background-color: var(--table-hover-color);
+}
+
+/*table raw hover*/
+:is(.markdown-preview-view,.markdown-rendered,.markdown-source-view) table tbody>tr:hover {
+  background-color: var(--table-hover-raw-color);
+}
+
+:is(.markdown-preview-view,.markdown-rendered,.markdown-source-view) th:hover {
+  background-color: var(--table-hover-thead-color);
+}
+
+ :is(.markdown-preview-view,.markdown-rendered,.markdown-source-view) tbody tr:nth-child(odd):hover,
+:is(.markdown-preview-view,.markdown-rendered,.markdown-source-view) tbody tr:hover{
+  background: var(--table-hover-raw-color);
+  transform: scale(1.02);
+  transition: transform 0.1s cubic-bezier(0.11, 0.33, 0.23, 0.33);
+}
+
+:is(.markdown-preview-view,.markdown-rendered,.markdown-source-view) tbody td:hover{
+  background: var(--table-hover-color);
+  transform: scale(1.02);
+  transition: transform 0.1s cubic-bezier(0.22, 0.66, 0.46, 0.66);
+}
+
+.theme-light {
+  --table-background-color-odd: rgba(0, 0, 0, 0.02);
+  --table-background-color: rgba(0, 0, 0, 0.02);
+  --table-thead-background-color: rgba(0, 0, 0, 0.1);
+  --table-hover-color: rgba(0, 0, 0, 0.03);
+  --table-hover-raw-color: rgba(0, 0, 0, 0.05);
+  --table-hover-thead-color: var(--table-thead-background-color);
+}
+.theme-dark {
+  --table-background-color-odd: rgba(0, 0, 0, 0.3);
+  --table-background-color: rgba(0, 0, 0, 0.3);
+  --table-thead-background-color: rgba(0, 0, 0, 0.5);
+  --table-hover-color: rgba(0, 0, 0, 0.5);
+  --table-hover-raw-color: rgba(0, 0, 0, 0.5);
+  --table-hover-thead-color: var(--table-thead-background-color);
+}

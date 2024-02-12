@@ -1,0 +1,21 @@
+.workspace-ribbon.side-dock-ribbon.mod-left.is-collapsed:hover,
+.workspace-ribbon.side-dock-ribbon.mod-left:hover {
+  position: absolute;
+  top: 0px;
+  left: 0px; /* 调整为 0px 以使侧边栏在悬停时显示 */
+  height: 95%;
+  opacity: 1; /* 设置为 1 以使侧边栏在悬停时可见 */
+  transition: all .3s ease-out .2s;
+}
+
+.workspace-ribbon.side-dock-ribbon.mod-left.is-collapsed::before,
+.workspace-ribbon.side-dock-ribbon.mod-left {
+  opacity: 0; /* 保持可见 */
+  left: 0px; /* 保持与父元素左边界对齐 */
+  transition: all .3s ease-out .2s;
+}
+
+.side-dock-actions{
+  /* 重叠 */
+  margin-top: 35px;
+}

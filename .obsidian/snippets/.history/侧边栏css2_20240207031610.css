@@ -1,0 +1,22 @@
+
+.workspace-ribbon.side-dock-ribbon.mod-left.is-collapsed:not(:hover)::before,
+.workspace-ribbon.mod-left
+{
+    position: absolute;
+    top:0px;
+    left:-30px;
+    height:95%;
+    opacity:0;
+    transition:all .3s ease-out .2s;
+}
+.workspace-ribbon.side-dock-ribbon.mod-left.is-collapsed::before,
+.workspace-ribbon.side-dock-ribbon.mod-left:hover{
+    opacity:1;
+    left:0px;
+    transition:all .3s ease-out .2s;
+}
+
+
+
+
+/* 当侧边栏悬停时，图标和动作元素将自然地跟随父元素移动，无需额外的位置变化 */

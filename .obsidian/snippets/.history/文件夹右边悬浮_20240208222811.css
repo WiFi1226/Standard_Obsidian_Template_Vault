@@ -1,0 +1,120 @@
+.workspace-split.mod-horizontal.mod-right-split {
+    position: fixed;
+    display: flex;
+    width: 350px !important;
+    height: 85%;
+    z-index: var(--layer-popover);
+    margin: 0;
+    align-self: center;
+    background-color: var(--background-primary);
+    right: 0; /* 改为从右侧定位 */
+    transform: translateX(75%) translateZ(0px); /* 从右向左滑出 */
+    transition: transform .5s;
+    transition-delay: 1s;
+}
+
+.workspace-tabs.mod-top.mod-top-right-space {
+    border-top: solid 4px var(--divider-color);
+    border-left: solid 4px var(--divider-color);
+    border-bottom: solid 4px var(--divider-color);
+    border-top-left-radius: var(--modal-radius);
+    box-shadow: var(--shadow-s);
+}
+
+.workspace-split.mod-right-split>.workspace-right-resize-handle {
+    border-left-style: unset;
+    border-left-width: unset;
+}
+
+
+
+
+
+
+.workspace-tab-header-container::before:hover {
+    overflow: hidden;
+    height: 80%;
+    transform: translateX(0px) translateZ(0px);
+    transition: transform .5s;
+}
+
+.workspace-tab-header-container::before:hover {
+    overflow: hidden;
+    height: 80%;
+    transform: translateX(0px) translateZ(0px);
+    transition: transform .5s;
+}
+
+.workspace-tab-header-container-inner {
+    overflow: hidden;
+    height: 80%;
+    transform: translateX(0px) translateZ(0px);
+    transition: transform .5s;
+}
+
+
+
+
+.workspace-split.mod-horizontal.mod-right-split:hover {
+    overflow: hidden;
+    height: 80%;
+    transform: translateX(0px) translateZ(0px);
+    transition: transform .5s;
+}
+
+.workspace-split.mod-horizontal.mod-right-split:focus-within {
+    overflow: hidden;
+    height: 80%;
+    transform: translateX(0px) translateZ(0px);
+    transition: transform .5s;
+}
+
+body>div.app-container>div.horizontal-main-container>div>div.workspace-split.mod-horizontal.mod-left-split>div.workspace-tabs.mod-top.mod-top-left-space>div.workspace-tab-header-container>div.workspace-tab-header-container-inner {
+    transform: translateX(0px) translateZ(0px);
+    transition: transform .5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+.workspace-split.mod-horizontal.mod-right-split::before {
+    content: "";
+    text-align: end !important;
+    background-color: var(--divider-color);
+    position: absolute;
+    display: flex;
+    width: 10px;
+    height: 120px;
+    top: calc(50% - 60px);
+    left: -10px; /* 从左侧移出 */
+    z-index: var(--layer-popover);
+    border-bottom-left-radius: var(--input-radius);
+    border-top-left-radius: var(--input-radius);
+    box-shadow: var(--shadow-s);
+}
+
+.workspace-split.mod-horizontal.mod-right-split::after {
+    content: "";
+    text-align: end !important;
+    background-color: var(--color-base-50);
+    position: absolute;
+    display: flex;
+    width: 5px;
+    height: 90px;
+    top: calc(50% - 45px);
+    left: -7px; /* 从左侧移出 */
+    z-index: var(--layer-popover);
+    border-radius: var(--input-radius);
+}
+
+body>div.app-container>div.horizontal-main-container>div>div.workspace-split.mod-horizontal.mod-left-split>div.workspace-tabs.mod-top.mod-top-left-space>div.workspace-tab-header-container {
+    flex-direction: column;
+    align-items: center;
+}

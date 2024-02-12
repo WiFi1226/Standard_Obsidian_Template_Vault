@@ -1,0 +1,27 @@
+.sidebar-toggle-button.mod-left {
+    justify-content: right; /*交互区对齐*/
+    margin-left: -28px; /*左侧栏按钮位置*/
+  }
+  .sidebar-toggle-button.mod-left {
+    /* 使用DataURL作为背景图像 */
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon sidebar-left"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg>');
+    /* 设置背景大小 */
+    background-size: 24px 24px;
+    /* 防止背景图像重复 */
+    background-repeat: no-repeat;
+    /* 设置按钮大小以适应SVG */
+    width: 24px;
+    height: 24px;
+    /* 其他样式... */
+    opacity: 1; /* 设置不透明度 */
+  }
+  
+  
+  .workspace-ribbon.side-dock-ribbon.mod-left:not(:hover)::before,
+  .workspace-ribbon.side-dock-ribbon.mod-left:not(:hover) {
+    border-right-color: transparent;
+    margin-left: -32px;
+  }
+  .workspace-ribbon.side-dock-ribbon.mod-left::before,
+  .workspace-ribbon.side-dock-ribbon.mod-left {transition: var(--anim-duration-moderate);}
+  

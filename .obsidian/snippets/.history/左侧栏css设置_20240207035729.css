@@ -1,0 +1,17 @@
+.sidebar-toggle-button.mod-left {
+    justify-content: right; /*交互区对齐*/
+    margin-left: -28px; /*左侧栏按钮位置*/
+  }
+  .sidebar-toggle-button.mod-left {
+    background-image: url('http://www.w3.org/2000/svg'); /* 替换为实际的SVG文件URL */
+    background-size: 24; /* 或者设置为contain，根据需要 */
+  }
+  
+  .workspace-ribbon.side-dock-ribbon.mod-left:not(:hover)::before,
+  .workspace-ribbon.side-dock-ribbon.mod-left:not(:hover) {
+    border-right-color: transparent;
+    margin-left: -32px;
+  }
+  .workspace-ribbon.side-dock-ribbon.mod-left::before,
+  .workspace-ribbon.side-dock-ribbon.mod-left {transition: var(--anim-duration-moderate);}
+  

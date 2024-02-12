@@ -1,0 +1,35 @@
+.workspace-ribbon.mod-left {
+    overflow: visible;
+    position: fixed;
+    /*左侧栏位置*/
+    left: -44px;
+    bottom: 21px;
+  }
+  .workspace-ribbon.mod-left::before /*左侧栏按钮背景*/ {margin-left: 40px; background-color: var(--background-primary);}
+  .sidebar-toggle-button.mod-left {margin-left: 42px; /*复位*/}
+  
+  .side-dock-settings, .side-dock-actions {
+    position: fixed;
+    background-color: var(--background-primary); /*背景颜色*/
+    border-right: var(--size-2-1) solid var(--background-primary); /*边框粗细颜色等*/
+    border-top-right-radius: var(--radius-m); /*右上边框弧度*/
+  }
+  .side-dock-settings /*设置区位置*/ {left: 0; bottom: 40px;}
+  .side-dock-actions /*命令区*/ {
+    display: flex;
+    flex-direction: row;
+    gap: var(--size-2-1); /*各按钮间距*/
+    /*位置*/
+    left: 40px;
+    bottom: 0;
+  }
+  /*按钮与容器边距*/
+  .side-dock-settings .side-dock-ribbon-action {margin: 0 4px;} /*与左侧栏按钮宽度对齐*/
+  .side-dock-actions .side-dock-ribbon-action {margin: 7px 0 8px;} /*与左侧栏按钮顶边对齐*/
+  
+  /*平时隐藏，悬停显示*/
+  :is(.status-bar, .workspace-ribbon.mod-left, .side-dock-settings, .side-dock-actions):not(:hover) {opacity: 0; transition: var(--anim-duration-fast);}
+  :is(.status-bar, .workspace-ribbon.mod-left, .side-dock-settings, .side-dock-actions):hover {transition: var(--anim-duration-fast) var(--anim-duration-superfast);}
+  
+  /*按钮阴影*/
+  :is(.side-dock-settings, .side-dock-actions) .clickable-icon:hover {background-color: transparent;}

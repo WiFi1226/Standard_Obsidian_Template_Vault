@@ -1,0 +1,21 @@
+
+ .workspace-ribbon.side-dock-ribbon.mod-left.is-collapsed,
+  .workspace-ribbon.side-dock-ribbon.mod-left {
+    position: absolute;
+    top: 0px; /* 使元素隐藏在屏幕左侧 */
+    height: 95%;
+    margin-left: -32px; /* 左边距进一步调整，以控制元素的位置 */
+    border-right-color: transparent; /* 设置右边框颜色为透明 */
+    transition: all .3s ease-out .2s; /* 添加平滑过渡效果 */
+  }
+
+  .workspace-ribbon.side-dock-ribbon.mod-left.is-collapsed:hover,
+  .workspace-ribbon.mod-left:hover{
+      opacity:1;
+      left:0px;
+      transition:all .3s ease-out .2s;
+  }
+   .side-dock-actions {
+    margin-top: 35px; /* 防止重叠 */
+  }
+  

@@ -1,0 +1,36 @@
+{
+  "cascadeColors": false,
+  "colorBackground": false,
+  "palette": [
+    {
+      "id": "CmRbLKOfMBYEOOVBuyfiP",
+      "name": "RED",
+      "value": "#ff0000"
+    },
+    {
+      "id": "07GVQ4zV1I5Z2fIidURNZ",
+      "name": "Blue",
+      "value": "#006eff"
+    },
+    {
+      "id": "U1PpPt5cIidxOOZ3N_qhV",
+      "name": "Yellow",
+      "value": "#fbff00"
+    },
+    {
+      "id": "2oNyVyIcDQAoElBpCMApo",
+      "name": "Pink",
+      "value": "#ffc7e5"
+    }
+  ],
+  "fileColors": [
+    {
+      "path": "Records",
+      "color": "CmRbLKOfMBYEOOVBuyfiP"
+    },
+    {
+      "path": "Assets",
+      "color": "07GVQ4zV1I5Z2fIidURNZ"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+/* 控制侧边栏的基本位置和移动 */
+.workspace-ribbon.side-dock-ribbon.mod-left {
+  position: absolute;
+  top: 0px;
+  margin-left: -32px; /* 默认隐藏在屏幕左侧 */
+  opacity:0;
+  height: 95%;
+  border-right-color: transparent; /* 设置右边框颜色为透明 */
+  transition: all .3s ease-out .2s; 
+}
+
+/* 控制图标和动作元素的基本位置 */
+.workspace-ribbon.side-dock-ribbon.mod-left .clickable-icon,
+.workspace-ribbon.side-dock-ribbon.mod-left .side-dock-actions {
+  position: absolute;
+  margin-left: -32px; /* 与侧边栏一致的移动 */
+  transition: all .3s ease-out .2s; /* 平滑过渡效果 */
+}
+
+/* 当鼠标悬停在侧边栏上时，同时移动图标和动作元素 */
+.workspace-ribbon.side-dock-ribbon.mod-left:hover,
+.workspace-ribbon.side-dock-ribbon.mod-left:hover .clickable-icon,
+.workspace-ribbon.side-dock-ribbon.mod-left:hover .side-dock-actions {
+  left: 0;
+}

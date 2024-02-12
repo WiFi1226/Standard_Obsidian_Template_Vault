@@ -1,0 +1,5 @@
+{
+  "format": "MMMM DD - dddd WW YYYY",
+  "template": "Assets/Templates/日志模板",
+  "folder": "Records"
+}

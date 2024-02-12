@@ -1,0 +1,14 @@
+
+ .workspace-ribbon.side-dock-ribbon.mod-left.is-collapsed:not(:hover)::before,
+  .workspace-ribbon.side-dock-ribbon.mod-left:not(:hover) {
+    position: absolute;
+    top: 0px;
+    left: -30px; /* 默认隐藏在屏幕左侧 */
+    height: 95%;
+    opacity: 0; /* 默认不可见 */
+    border-right-color: transparent;
+    transition: all .3s ease-out .2s, var(--anim-duration-moderate); 
+  }
+
+   .workspace-ribbon.side-dock-ribbon.mod-left::before,
+   .workspace-ribbon.side-dock-ribbon.mod-left {transition: var(--anim-duration-moderate);}把这个功能加入

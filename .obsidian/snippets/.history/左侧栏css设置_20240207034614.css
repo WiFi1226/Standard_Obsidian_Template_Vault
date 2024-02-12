@@ -1,0 +1,9 @@
+
+
+  .workspace-ribbon.side-dock-ribbon.mod-left:not(:hover)::before,
+  .workspace-ribbon.side-dock-ribbon.mod-left:not(:hover) {
+    border-right-color: transparent;
+    margin-left: -32px;
+  }
+  .workspace-ribbon.side-dock-ribbon.mod-left::before,
+  .workspace-ribbon.side-dock-ribbon.mod-left {transition: var(--anim-duration-moderate);}

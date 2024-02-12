@@ -1,0 +1,9 @@
+{
+  "trashOption": "local",
+  "alwaysUpdateLinks": true,
+  "showLineNumber": true,
+  "tabSize": 3,
+  "readableLineLength": true,
+  "propertiesInDocument": "hidden",
+  "promptDelete": false
+}

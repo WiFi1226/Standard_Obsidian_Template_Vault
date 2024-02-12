@@ -1,0 +1,219 @@
+{
+  "main": {
+    "id": "de224d24428f1f2c",
+    "type": "split",
+    "children": [
+      {
+        "id": "9d23798a869085e4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "20a773dd714333a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3f368ccd00cb85bb",
+    "type": "split",
+    "children": [
+      {
+        "id": "3f1035286a675bda",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b006644056ad0499",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "392b6161572dc2dd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "90e6deca77c23a21",
+            "type": "leaf",
+            "state": {
+              "type": "trash-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "fd329939ebad5926",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
+            "id": "39d10c047b1e85ad",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-tab-tree",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 499
+  },
+  "right": {
+    "id": "56d80f1fe517b3a5",
+    "type": "split",
+    "children": [
+      {
+        "id": "06fa63ba6be424ac",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f2da911ad82d68fd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Home.md"
+              }
+            }
+          },
+          {
+            "id": "78d0d0422f99a404",
+            "type": "leaf",
+            "state": {
+              "type": "chronology-calendar-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "90e8712354b891e3",
+            "type": "leaf",
+            "state": {
+              "type": "ch.der-tobi.obsidian-simple-mention",
+              "state": {}
+            }
+          },
+          {
+            "id": "de9d8ceefd0bead8",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "59f35a3eb02d2766",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Home.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "02c35c6d40f18dc0",
+            "type": "leaf",
+            "state": {
+              "type": "tasks_timeline_view",
+              "state": {}
+            }
+          },
+          {
+            "id": "1c70d2575e315572",
+            "type": "leaf",
+            "state": {
+              "type": "relation-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 6
+      }
+    ],
+    "direction": "horizontal",
+    "width": 404.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-projects:Open projects": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": true,
+      "command-palette:Open command palette": false,
+      "edit-history:Open edit history": true,
+      "obsidian-trash-explorer:Open trash explorer": true,
+      "templater-obsidian:Templater": true,
+      "obsidian42-brat:BRAT": true,
+      "mermaid-tools:Open Mermaid Toolbar": true,
+      "chronology:Open Chronology": true,
+      "media-sync:Media sync": false,
+      "homepage:Open homepage": false,
+      "obsidian-memos:Memos": false,
+      "obsidian-comments:Show Comments Panel": false,
+      "obsidian-regex-pipeline:Regex Rulesets": false,
+      "markdown-table-editor:Open Markdown Table Editor": false,
+      "obsidian-rich-links:Rich Links": false,
+      "vscode-editor:Create Code File": false
+    }
+  },
+  "active": "1c70d2575e315572",
+  "lastOpenFiles": [
+    "Home.md",
+    "Records/February 11 - Sunday 06 2024.md",
+    "PlUGINS.md",
+    "Assets/Templates/Default Essay Note Template.md",
+    "Assets/Templates/Default Essay Note Template.md.edtz",
+    "Assets/Templates/日志模板.md",
+    "Records/February 11 - Sunday 06 2024.md.edtz",
+    "日志模板.md",
+    "Assets/Templates/日志模板.md.edtz",
+    "Assets/Templates",
+    "Assets/Archives",
+    "Assets",
+    "Untitled1/Welcome.md",
+    "Untitled1/未命名 1.md",
+    "Records",
+    "Home.md.edtz",
+    "未命名.md",
+    "Obsidian模版库README文件头.jpg",
+    "未命名.canvas",
+    "Untitled12/未命名 1.md",
+    "未命名.md.edtz",
+    "未命名 3.md",
+    "未命名 1.md",
+    "Untitled12/未命名 1.md.edtz",
+    "HomePages.md",
+    "未命名 2.md"
+  ]
+}
